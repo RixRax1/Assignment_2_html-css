@@ -1,0 +1,89 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styling*/
+#products {
+  display: flex;
+  width: 100%;
+  max-width: 920px;
+  min-height: 500px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-card {
+  flex: 1;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.product-card.Sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.product-card.Suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.product-card.Luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.small-car-image {
+  display: block;
+  margin: 0;
+}
+
+.product-text {
+  margin: 0;
+}
+
+.learn-more {
+  margin-top: auto;
+}
+
+.Sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.Suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.Luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  margin: 0;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
