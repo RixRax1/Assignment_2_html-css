@@ -6,7 +6,7 @@
 }
 
 /* Global styling*/
-#products {
+#body {
   display: flex;
   width: 100%;
   max-width: 920px;
